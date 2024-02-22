@@ -1,4 +1,4 @@
-# Welcome to signal.fyi Support
+# Welcome to signal.fyi support
 
 Thank you for using signal.fyi! This repository is where you can ask questions, report issues, and suggest improvements for signal.fyi.
 
