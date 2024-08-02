@@ -1,6 +1,6 @@
 # Welcome to signal.fyi support
 
-Thank you for using signal.fyi! This repository is where you can ask questions, report issues, and suggest improvements for signal.fyi.
+Thank you for using [signal.fyi](https://www.signal.fyi/)! This repository is where you can ask questions, report issues, and suggest improvements for signal.fyi.
 
 ## Before You Post
 ### Please take a moment to:
