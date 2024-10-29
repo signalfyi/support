@@ -1,3 +1,7 @@
+2024-10-29:
+- Add provenance package at root of repo for SBOM and CVE Summaries
+- Upgrade and simplify splash page
+
 2024-08-22:
 - Added CVE summary for each valid FROM Dockerfile line in each Dockerfile Pull Request
 
