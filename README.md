@@ -12,27 +12,27 @@ A space for asking questions, reporting bugs, and suggesting features to help im
 
 ## How to Use This Repository
 ### 📝 Access Public Reports
-Navigate to the `/reports` folder to find:
+Navigate to the `public/reports` folder to find:
 - <strong>Daily SBOMs</strong>: Comprehensive details about the software components in public Docker images.
 - <strong>CVE Summaries</strong>: Summarized vulnerabilities (Critical, High, Medium) detected in these images.
 
 ### 💬 Get Support and Provide Feedback
 <strong>Ask Questions</strong>:
-- Need help using signal.fyi or understanding the reports? Open a new issue and tag it as a question.
+- Need help using signal.fyi or understanding the reports? Open a new issue and `tag` it as a `question`.
 
 <strong>Report Bugs</strong>:
 - Encounter a problem? Please:
     - Describe what you were doing.
-    - Include relevant details like Docker images, error messages, and configuration specifics.
-    - Tag it as a bug.
+    - Include relevant details like `Docker images`, `error messages`, and `configuration specifics`.
+    - `Tag` it as a `bug`.
 
 <strong>Request Features</strong>:
-- Have ideas to make signal.fyi better? Share your suggestions and tag the issue as a feature request.
+- Have ideas to make signal.fyi better? Share your suggestions and `tag` the `issue` as a `feature` request.
 
 ## Before You Post
-1. Search Existing Issues: Your question or issue might already have been addressed.
-2. Be Clear and Concise: Include as much relevant information as possible.
-3. Stay Updated: Watch this repository for updates on reports, fixes, and announcements.
+1. <strong>Search Existing Issues</strong>: Your question or issue might already have been addressed.
+2. <strong>Be Clear and Concise</strong>: Include as much relevant information as possible.
+3. <strong>Stay Updated</strong>: Watch this repository for updates on reports, fixes, and announcements.
 
 ## Legal Guidelines
 For more details on using this repository responsibly, please review our [legal guidelines](https://www.signal.fyi/legal/).
