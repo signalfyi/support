@@ -1,0 +1,64 @@
+name: 🚀 Feedback for Signal.fyi
+description: Share your thoughts and let us know how we can improve Signal.fyi!
+title: "[Feedback]: "
+labels: [feedback, user-input]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 Help Us Improve Signal.fyi
+        Thank you for taking the time to share your thoughts! Your feedback helps us make Signal.fyi better for everyone. 🙌
+
+  - type: textarea
+    id: current-usage
+    attributes:
+      label: "1️⃣ What do you use Signal.fyi for today?"
+      description: Briefly describe how you’re currently using Signal.fyi.
+      placeholder: "Example: I use Signal.fyi to track CVEs and ensure secure base images."
+    validations:
+      required: true
+
+  - type: textarea
+    id: docker-challenge
+    attributes:
+      label: "2️⃣ What’s the biggest challenge you face with Docker image management?"
+      description: Share any struggles or frustrations related to Docker images or vulnerabilities.
+      placeholder: "Example: It's hard to track updates for base images and CVEs across our repos."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-request
+    attributes:
+      label: "3️⃣ What feature would make your life easier?"
+      description: Suggest any features or ideas that would help you solve your challenges.
+      placeholder: "Example: A simplified SBOM link I can share with vendors without source code access."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: report-sharing
+    attributes:
+      label: "4️⃣ Do you share reports or SBOMs with anyone (e.g., vendors, teammates)?"
+      description: Select 'Yes' or 'No' to let us know.
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: public-report-link
+    attributes:
+      label: "🔗 Optional: Share a public report link"
+      description: If relevant, paste the link to your public report.
+      placeholder: "https://github.com/signalfyi/support/tree/main/public/test-reports/... (Optional)"
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Confirmation"
+      description: Confirm this feedback does not include private or sensitive data.
+      options:
+        - label: "I confirm this feedback contains no private data."
+          required: true
