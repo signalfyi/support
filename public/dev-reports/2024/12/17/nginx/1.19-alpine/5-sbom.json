@@ -1,0 +1,860 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+    "version": 1,
+    "metadata": {
+        "tools": [
+            {
+                "name": "trivy",
+                "vendor": "aquasecurity",
+                "version": "unknown"
+            }
+        ],
+        "component": {
+            "name": "nginx",
+            "purl": "pkg:oci/nginx@1.19-alpine?digest=sha256:07ab71a2c8e4ecb19a5a5abcfb3a4f175946c001c8af288b1aa766d67b0d05d2",
+            "type": "library",
+            "bom-ref": "pkg:oci/nginx@1.19-alpine?digest=sha256:07ab71a2c8e4ecb19a5a5abcfb3a4f175946c001c8af288b1aa766d67b0d05d2",
+            "version": "1.19-alpine"
+        },
+        "timestamp": "2024-12-17T15:11:04.196620+00:00"
+    },
+    "bomFormat": "CycloneDX",
+    "components": [
+        {
+            "name": "496f7384-46cc-41d2-9aac-d7381041816e",
+            "type": "library",
+            "bom-ref": "BomRef.9385784041342173.7475296230414452",
+            "version": "unknown"
+        },
+        {
+            "name": "alpine",
+            "type": "library",
+            "bom-ref": "BomRef.5201465691874527.7059702287291588",
+            "version": "3.13.5"
+        },
+        {
+            "name": "alpine-baselayout",
+            "type": "library",
+            "bom-ref": "BomRef.8293765966113145.06699061951396879",
+            "version": "3.2.0-r8"
+        },
+        {
+            "name": "alpine-keys",
+            "type": "library",
+            "bom-ref": "BomRef.04004080530418841.7244265475671202",
+            "version": "2.2-r0"
+        },
+        {
+            "name": "apk-tools",
+            "type": "library",
+            "bom-ref": "BomRef.9841699938376349.9766503370156793",
+            "version": "2.12.5-r0"
+        },
+        {
+            "name": "brotli-libs",
+            "type": "library",
+            "bom-ref": "BomRef.6576569001280121.7615892858322723",
+            "version": "1.0.9-r3"
+        },
+        {
+            "name": "busybox",
+            "type": "library",
+            "bom-ref": "BomRef.9697980058011717.2681985145295426",
+            "version": "1.32.1-r6"
+        },
+        {
+            "name": "ca-certificates",
+            "type": "library",
+            "bom-ref": "BomRef.2304307718589983.6802330066951129",
+            "version": "20191127-r5"
+        },
+        {
+            "name": "ca-certificates-bundle",
+            "type": "library",
+            "bom-ref": "BomRef.6792782632422876.9554196104129432",
+            "version": "20191127-r5"
+        },
+        {
+            "name": "curl",
+            "type": "library",
+            "bom-ref": "BomRef.2704453835129579.012572808843544947",
+            "version": "7.76.1-r0"
+        },
+        {
+            "name": "freetype",
+            "type": "library",
+            "bom-ref": "BomRef.462547322462845.96773825707439",
+            "version": "2.10.4-r1"
+        },
+        {
+            "name": "geoip",
+            "type": "library",
+            "bom-ref": "BomRef.6039587475787538.7886189884947906",
+            "version": "1.6.12-r1"
+        },
+        {
+            "name": "libbz2",
+            "type": "library",
+            "bom-ref": "BomRef.5582337618846209.23244357393321968",
+            "version": "1.0.8-r1"
+        },
+        {
+            "name": "libc-utils",
+            "type": "library",
+            "bom-ref": "BomRef.03490410596567528.03597675747892848",
+            "version": "0.7.2-r3"
+        },
+        {
+            "name": "libcrypto1.1",
+            "type": "library",
+            "bom-ref": "BomRef.7685600506075776.21201421816667032",
+            "version": "1.1.1k-r0"
+        },
+        {
+            "name": "libcurl",
+            "type": "library",
+            "bom-ref": "BomRef.7306636412490609.977133492287536",
+            "version": "7.76.1-r0"
+        },
+        {
+            "name": "libedit",
+            "type": "library",
+            "bom-ref": "BomRef.16076080057217468.6673729492326255",
+            "version": "20191231.3.1-r1"
+        },
+        {
+            "name": "libgcrypt",
+            "type": "library",
+            "bom-ref": "BomRef.2265735872253949.8031153962018142",
+            "version": "1.8.7-r0"
+        },
+        {
+            "name": "libgd",
+            "type": "library",
+            "bom-ref": "BomRef.9420165489684039.32068036529397526",
+            "version": "2.3.0-r2"
+        },
+        {
+            "name": "libgpg-error",
+            "type": "library",
+            "bom-ref": "BomRef.08764105981357806.39513806350193037",
+            "version": "1.41-r0"
+        },
+        {
+            "name": "libintl",
+            "type": "library",
+            "bom-ref": "BomRef.10892939668749813.4197797361323956",
+            "version": "0.20.2-r2"
+        },
+        {
+            "name": "libjpeg-turbo",
+            "type": "library",
+            "bom-ref": "BomRef.48307647642873064.7549074243042633",
+            "version": "2.0.6-r0"
+        },
+        {
+            "name": "libpng",
+            "type": "library",
+            "bom-ref": "BomRef.7004970345906393.3298149372455801",
+            "version": "1.6.37-r1"
+        },
+        {
+            "name": "libssl1.1",
+            "type": "library",
+            "bom-ref": "BomRef.5994483221500065.9643051498687611",
+            "version": "1.1.1k-r0"
+        },
+        {
+            "name": "libtls-standalone",
+            "type": "library",
+            "bom-ref": "BomRef.3431351038809921.5702791496981521",
+            "version": "2.9.1-r1"
+        },
+        {
+            "name": "libwebp",
+            "type": "library",
+            "bom-ref": "BomRef.7823376097848335.8269736272473837",
+            "version": "1.1.0-r0"
+        },
+        {
+            "name": "libxml2",
+            "type": "library",
+            "bom-ref": "BomRef.05279091040500661.6177961085512649",
+            "version": "2.9.10-r6"
+        },
+        {
+            "name": "libxslt",
+            "type": "library",
+            "bom-ref": "BomRef.6354663749219388.20430083194898596",
+            "version": "1.1.34-r0"
+        },
+        {
+            "name": "musl",
+            "type": "library",
+            "bom-ref": "BomRef.29434395853681394.5133441543367462",
+            "version": "1.2.2-r0"
+        },
+        {
+            "name": "musl-utils",
+            "type": "library",
+            "bom-ref": "BomRef.5729404279248346.3752503674524502",
+            "version": "1.2.2-r0"
+        },
+        {
+            "name": "ncurses-libs",
+            "type": "library",
+            "bom-ref": "BomRef.9043453544790236.5028663883809422",
+            "version": "6.2_p20210109-r0"
+        },
+        {
+            "name": "ncurses-terminfo-base",
+            "type": "library",
+            "bom-ref": "BomRef.09913809152178099.14016780613012836",
+            "version": "6.2_p20210109-r0"
+        },
+        {
+            "name": "nghttp2-libs",
+            "type": "library",
+            "bom-ref": "BomRef.44278252835793375.7887639099695787",
+            "version": "1.42.0-r1"
+        },
+        {
+            "name": "nginx",
+            "type": "library",
+            "bom-ref": "BomRef.32216987786089357.7580745010813175",
+            "version": "1.19.10-r1"
+        },
+        {
+            "name": "nginx-module-geoip",
+            "type": "library",
+            "bom-ref": "BomRef.24787959594226305.4458088586335124",
+            "version": "1.19.10-r1"
+        },
+        {
+            "name": "nginx-module-image-filter",
+            "type": "library",
+            "bom-ref": "BomRef.9271638072885898.9072805351810079",
+            "version": "1.19.10-r1"
+        },
+        {
+            "name": "nginx-module-njs",
+            "type": "library",
+            "bom-ref": "BomRef.07868984605638696.35593737244834844",
+            "version": "1.19.10.0.5.3-r1"
+        },
+        {
+            "name": "nginx-module-xslt",
+            "type": "library",
+            "bom-ref": "BomRef.12051332091475297.047544467594090145",
+            "version": "1.19.10-r1"
+        },
+        {
+            "name": "pcre",
+            "type": "library",
+            "bom-ref": "BomRef.35604451039803986.19385182274040202",
+            "version": "8.44-r0"
+        },
+        {
+            "name": "pkg:apk/alpine/alpine-baselayout@3.2.0-r8?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.8077804663173375.3260442486001902",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/alpine-keys@2.2-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6416561530651194.5925904714649142",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/apk-tools@2.12.5-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.869100059242684.7720386755360029",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/brotli-libs@1.0.9-r3?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.5812591370560427.27564045180760766",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/busybox@1.32.1-r6?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.23992733244785047.634005454952493",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/ca-certificates-bundle@20191127-r5?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.16235813026407975.21460784200661742",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/ca-certificates@20191127-r5?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6306444775100654.635722557548434",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/curl@7.76.1-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.9776371960966008.20052244352874438",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/freetype@2.10.4-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.2369893793729274.6906609802676437",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/geoip@1.6.12-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.78374482288398.7897477206352899",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libbz2@1.0.8-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.44012975753828076.6545623701508079",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libc-utils@0.7.2-r3?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.8872139600001426.7213629154453545",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libcrypto1.1@1.1.1k-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6923816792757146.17506971904532453",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libcurl@7.76.1-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.8304689118072556.9175958909203683",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libedit@20191231.3.1-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.2105041854820897.01354016228246091",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libgcrypt@1.8.7-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.06765585751457104.9381043279652092",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libgd@2.3.0-r2?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.16284679347116637.9669049069960504",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libgpg-error@1.41-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.557975286394605.44336123393488325",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libintl@0.20.2-r2?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.3734041335233428.15844054066024416",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libjpeg-turbo@2.0.6-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.3804000562404549.35215113876976056",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libpng@1.6.37-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.20225392838167078.558500550706373",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libssl1.1@1.1.1k-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.24412702676362663.03528127288163252",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libtls-standalone@2.9.1-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.8089925425308816.439216194608271",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libwebp@1.1.0-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6321832777407924.6615990133747492",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libxml2@2.9.10-r6?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.21799564086623613.05779846974155878",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/libxslt@1.1.34-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.2630320493227506.07888796163210832",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/musl-utils@1.2.2-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.31339436563010137.29130066589385717",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/musl@1.2.2-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.38771258434878164.18967412380740645",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/ncurses-libs@6.2_p20210109-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6050448679260794.5185662766493987",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/ncurses-terminfo-base@6.2_p20210109-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.1496781268636148.7305296107422845",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/nghttp2-libs@1.42.0-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.8834675184705286.8108140089621342",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/nginx-module-geoip@1.19.10-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.24492369585001417.9623558081882734",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/nginx-module-image-filter@1.19.10-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.4433093226898197.34522829030241675",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/nginx-module-njs@1.19.10.0.5.3-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.01446368211065363.4678081071589346",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/nginx-module-xslt@1.19.10-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.308535127127073.13702331833408787",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/nginx@1.19.10-r1?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6717614639487922.8531319088104812",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/pcre@8.44-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.7119036480784003.15425172750489446",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/scanelf@1.2.8-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6544864623413754.8462289902240449",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/ssl_client@1.32.1-r6?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.6472191278175585.047928915946923945",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/tzdata@2021a-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.04250472300246477.7433624956309685",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/xz-libs@5.2.5-r0?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.49382945786254606.04317958605863981",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:apk/alpine/zlib@1.2.11-r3?arch=x86_64&distro=3.13.5",
+            "type": "library",
+            "bom-ref": "BomRef.23191052861074435.002198287348647132",
+            "version": "unknown"
+        },
+        {
+            "name": "pkg:oci/nginx@sha256%3A07ab71a2c8e4ecb19a5a5abcfb3a4f175946c001c8af288b1aa766d67b0d05d2?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fnginx",
+            "type": "library",
+            "bom-ref": "BomRef.9284546072685133.15457994479438364",
+            "version": "unknown"
+        },
+        {
+            "name": "scanelf",
+            "type": "library",
+            "bom-ref": "BomRef.918413988868359.6936663607993584",
+            "version": "1.2.8-r0"
+        },
+        {
+            "name": "ssl_client",
+            "type": "library",
+            "bom-ref": "BomRef.5221339012513325.2986004108197229",
+            "version": "1.32.1-r6"
+        },
+        {
+            "name": "tzdata",
+            "type": "library",
+            "bom-ref": "BomRef.12561291986430423.009387345034355898",
+            "version": "2021a-r0"
+        },
+        {
+            "name": "xz-libs",
+            "type": "library",
+            "bom-ref": "BomRef.17379713632622862.8474460044911024",
+            "version": "5.2.5-r0"
+        },
+        {
+            "name": "zlib",
+            "type": "library",
+            "bom-ref": "BomRef.4582725318273453.27167886648188255",
+            "version": "1.2.11-r3"
+        }
+    ],
+    "specVersion": "1.6",
+    "dependencies": [
+        {
+            "ref": "BomRef.9385784041342173.7475296230414452"
+        },
+        {
+            "ref": "BomRef.8077804663173375.3260442486001902"
+        },
+        {
+            "ref": "BomRef.6416561530651194.5925904714649142"
+        },
+        {
+            "ref": "BomRef.869100059242684.7720386755360029"
+        },
+        {
+            "ref": "BomRef.5812591370560427.27564045180760766"
+        },
+        {
+            "ref": "BomRef.23992733244785047.634005454952493"
+        },
+        {
+            "ref": "BomRef.16235813026407975.21460784200661742"
+        },
+        {
+            "ref": "BomRef.6306444775100654.635722557548434"
+        },
+        {
+            "ref": "BomRef.9776371960966008.20052244352874438"
+        },
+        {
+            "ref": "BomRef.2369893793729274.6906609802676437"
+        },
+        {
+            "ref": "BomRef.78374482288398.7897477206352899"
+        },
+        {
+            "ref": "BomRef.44012975753828076.6545623701508079"
+        },
+        {
+            "ref": "BomRef.8872139600001426.7213629154453545"
+        },
+        {
+            "ref": "BomRef.6923816792757146.17506971904532453"
+        },
+        {
+            "ref": "BomRef.8304689118072556.9175958909203683"
+        },
+        {
+            "ref": "BomRef.2105041854820897.01354016228246091"
+        },
+        {
+            "ref": "BomRef.06765585751457104.9381043279652092"
+        },
+        {
+            "ref": "BomRef.16284679347116637.9669049069960504"
+        },
+        {
+            "ref": "BomRef.557975286394605.44336123393488325"
+        },
+        {
+            "ref": "BomRef.3734041335233428.15844054066024416"
+        },
+        {
+            "ref": "BomRef.3804000562404549.35215113876976056"
+        },
+        {
+            "ref": "BomRef.20225392838167078.558500550706373"
+        },
+        {
+            "ref": "BomRef.24412702676362663.03528127288163252"
+        },
+        {
+            "ref": "BomRef.8089925425308816.439216194608271"
+        },
+        {
+            "ref": "BomRef.6321832777407924.6615990133747492"
+        },
+        {
+            "ref": "BomRef.21799564086623613.05779846974155878"
+        },
+        {
+            "ref": "BomRef.2630320493227506.07888796163210832"
+        },
+        {
+            "ref": "BomRef.31339436563010137.29130066589385717"
+        },
+        {
+            "ref": "BomRef.38771258434878164.18967412380740645"
+        },
+        {
+            "ref": "BomRef.6050448679260794.5185662766493987"
+        },
+        {
+            "ref": "BomRef.1496781268636148.7305296107422845"
+        },
+        {
+            "ref": "BomRef.8834675184705286.8108140089621342"
+        },
+        {
+            "ref": "BomRef.24492369585001417.9623558081882734"
+        },
+        {
+            "ref": "BomRef.4433093226898197.34522829030241675"
+        },
+        {
+            "ref": "BomRef.01446368211065363.4678081071589346"
+        },
+        {
+            "ref": "BomRef.308535127127073.13702331833408787"
+        },
+        {
+            "ref": "BomRef.6717614639487922.8531319088104812"
+        },
+        {
+            "ref": "BomRef.7119036480784003.15425172750489446"
+        },
+        {
+            "ref": "BomRef.6544864623413754.8462289902240449"
+        },
+        {
+            "ref": "BomRef.6472191278175585.047928915946923945"
+        },
+        {
+            "ref": "BomRef.04250472300246477.7433624956309685"
+        },
+        {
+            "ref": "BomRef.49382945786254606.04317958605863981"
+        },
+        {
+            "ref": "BomRef.23191052861074435.002198287348647132"
+        },
+        {
+            "ref": "BomRef.9284546072685133.15457994479438364"
+        },
+        {
+            "ref": "BomRef.5201465691874527.7059702287291588"
+        },
+        {
+            "ref": "BomRef.8293765966113145.06699061951396879"
+        },
+        {
+            "ref": "BomRef.04004080530418841.7244265475671202"
+        },
+        {
+            "ref": "BomRef.9841699938376349.9766503370156793"
+        },
+        {
+            "ref": "BomRef.6576569001280121.7615892858322723"
+        },
+        {
+            "ref": "BomRef.9697980058011717.2681985145295426"
+        },
+        {
+            "ref": "BomRef.2304307718589983.6802330066951129"
+        },
+        {
+            "ref": "BomRef.6792782632422876.9554196104129432"
+        },
+        {
+            "ref": "BomRef.2704453835129579.012572808843544947"
+        },
+        {
+            "ref": "BomRef.462547322462845.96773825707439"
+        },
+        {
+            "ref": "BomRef.6039587475787538.7886189884947906"
+        },
+        {
+            "ref": "BomRef.5582337618846209.23244357393321968"
+        },
+        {
+            "ref": "BomRef.03490410596567528.03597675747892848"
+        },
+        {
+            "ref": "BomRef.7685600506075776.21201421816667032"
+        },
+        {
+            "ref": "BomRef.7306636412490609.977133492287536"
+        },
+        {
+            "ref": "BomRef.16076080057217468.6673729492326255"
+        },
+        {
+            "ref": "BomRef.2265735872253949.8031153962018142"
+        },
+        {
+            "ref": "BomRef.9420165489684039.32068036529397526"
+        },
+        {
+            "ref": "BomRef.08764105981357806.39513806350193037"
+        },
+        {
+            "ref": "BomRef.10892939668749813.4197797361323956"
+        },
+        {
+            "ref": "BomRef.48307647642873064.7549074243042633"
+        },
+        {
+            "ref": "BomRef.7004970345906393.3298149372455801"
+        },
+        {
+            "ref": "BomRef.5994483221500065.9643051498687611"
+        },
+        {
+            "ref": "BomRef.3431351038809921.5702791496981521"
+        },
+        {
+            "ref": "BomRef.7823376097848335.8269736272473837"
+        },
+        {
+            "ref": "BomRef.05279091040500661.6177961085512649"
+        },
+        {
+            "ref": "BomRef.6354663749219388.20430083194898596"
+        },
+        {
+            "ref": "BomRef.29434395853681394.5133441543367462"
+        },
+        {
+            "ref": "BomRef.5729404279248346.3752503674524502"
+        },
+        {
+            "ref": "BomRef.9043453544790236.5028663883809422"
+        },
+        {
+            "ref": "BomRef.09913809152178099.14016780613012836"
+        },
+        {
+            "ref": "BomRef.44278252835793375.7887639099695787"
+        },
+        {
+            "ref": "BomRef.32216987786089357.7580745010813175"
+        },
+        {
+            "ref": "BomRef.24787959594226305.4458088586335124"
+        },
+        {
+            "ref": "BomRef.9271638072885898.9072805351810079"
+        },
+        {
+            "ref": "BomRef.07868984605638696.35593737244834844"
+        },
+        {
+            "ref": "BomRef.12051332091475297.047544467594090145"
+        },
+        {
+            "ref": "BomRef.35604451039803986.19385182274040202"
+        },
+        {
+            "ref": "BomRef.918413988868359.6936663607993584"
+        },
+        {
+            "ref": "BomRef.5221339012513325.2986004108197229"
+        },
+        {
+            "ref": "BomRef.12561291986430423.009387345034355898"
+        },
+        {
+            "ref": "BomRef.17379713632622862.8474460044911024"
+        },
+        {
+            "ref": "BomRef.4582725318273453.27167886648188255"
+        },
+        {
+            "ref": "pkg:oci/nginx@1.19-alpine?digest=sha256:07ab71a2c8e4ecb19a5a5abcfb3a4f175946c001c8af288b1aa766d67b0d05d2",
+            "dependsOn": [
+                "BomRef.23992733244785047.634005454952493",
+                "BomRef.8304689118072556.9175958909203683",
+                "BomRef.38771258434878164.18967412380740645",
+                "BomRef.5812591370560427.27564045180760766",
+                "BomRef.8834675184705286.8108140089621342",
+                "BomRef.8872139600001426.7213629154453545",
+                "BomRef.4433093226898197.34522829030241675",
+                "BomRef.308535127127073.13702331833408787",
+                "BomRef.9385784041342173.7475296230414452",
+                "BomRef.3804000562404549.35215113876976056",
+                "BomRef.6544864623413754.8462289902240449",
+                "BomRef.04250472300246477.7433624956309685",
+                "BomRef.49382945786254606.04317958605863981",
+                "BomRef.869100059242684.7720386755360029",
+                "BomRef.21799564086623613.05779846974155878",
+                "BomRef.16284679347116637.9669049069960504",
+                "BomRef.9284546072685133.15457994479438364",
+                "BomRef.44012975753828076.6545623701508079",
+                "BomRef.6923816792757146.17506971904532453",
+                "BomRef.2105041854820897.01354016228246091",
+                "BomRef.8089925425308816.439216194608271",
+                "BomRef.8077804663173375.3260442486001902",
+                "BomRef.24412702676362663.03528127288163252",
+                "BomRef.2369893793729274.6906609802676437",
+                "BomRef.6472191278175585.047928915946923945",
+                "BomRef.1496781268636148.7305296107422845",
+                "BomRef.20225392838167078.558500550706373",
+                "BomRef.78374482288398.7897477206352899",
+                "BomRef.3734041335233428.15844054066024416",
+                "BomRef.9776371960966008.20052244352874438",
+                "BomRef.6416561530651194.5925904714649142",
+                "BomRef.31339436563010137.29130066589385717",
+                "BomRef.7119036480784003.15425172750489446",
+                "BomRef.23191052861074435.002198287348647132",
+                "BomRef.6321832777407924.6615990133747492",
+                "BomRef.6717614639487922.8531319088104812",
+                "BomRef.2630320493227506.07888796163210832",
+                "BomRef.6050448679260794.5185662766493987",
+                "BomRef.557975286394605.44336123393488325",
+                "BomRef.16235813026407975.21460784200661742",
+                "BomRef.6306444775100654.635722557548434",
+                "BomRef.06765585751457104.9381043279652092",
+                "BomRef.01446368211065363.4678081071589346",
+                "BomRef.24492369585001417.9623558081882734"
+            ]
+        }
+    ],
+    "serialNumber": "urn:uuid:85898112-c235-4d4b-a332-cd11d018ccb2"
+}
