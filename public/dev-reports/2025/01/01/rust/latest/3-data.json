@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "branch_name": "2025-01-01-rust-latest-1-container-provenance-sync",
+        "local_sbom_path": "public/dev-reports/2025/01/01/rust/latest/3-sbom.json",
+        "local_png_path": "public/dev-reports/2025/01/01/rust/latest/3-cve-digest-history.png",
+        "local_data_path": "public/dev-reports/2025/01/01/rust/latest/3-data.json",
+        "github_sbom_path": "public/dev-reports/2025/01/01/rust/latest/3-sbom.json",
+        "github_png_path": "public/dev-reports/2025/01/01/rust/latest/3-cve-digest-history.png",
+        "github_data_path": "public/dev-reports/2025/01/01/rust/latest/3-data.json",
+        "sbom_file_name": "3-sbom.json",
+        "png_file_name": "3-cve-digest-history.png",
+        "data_file_name": "3-data.json",
+        "github_sbom_url": "https://github.com/signalfyi/support/blob/2025-01-01-rust-latest-1-container-provenance-sync/public/dev-reports/2025/01/01/rust/latest/3-sbom.json",
+        "github_png_url": "https://github.com/signalfyi/support/blob/2025-01-01-rust-latest-1-container-provenance-sync/public/dev-reports/2025/01/01/rust/latest/3-cve-digest-history.png",
+        "github_data_url": "https://github.com/signalfyi/support/blob/2025-01-01-rust-latest-1-container-provenance-sync/public/dev-reports/2025/01/01/rust/latest/3-data.json"
+    },
+    "report_date": "2025-01-01",
+    "docker_image": {
+        "name": "rust",
+        "tag": "latest",
+        "digest": "sha256:a45bf1f5d9af0a23b26703b3500d70af1abff7f984a7abef5a104b42c02a292b"
+    },
+    "severity_summary": {
+        "Critical": 10,
+        "High": 190,
+        "Medium": 512,
+        "Low": 118,
+        "Info": 0,
+        "Unknown": 18
+    },
+    "related_files": {
+        "data_json": "public/dev-reports/2025/01/01/rust/latest/3-data.json",
+        "sbom": "public/dev-reports/2025/01/01/rust/latest/3-sbom.json",
+        "graph_png": "public/dev-reports/2025/01/01/rust/latest/3-cve-digest-history.png"
+    },
+    "attestations": {
+        "trivy": {
+            "license_url": "https://github.com/aquasecurity/trivy/blob/main/LICENSE",
+            "repo_license_reference": "https://github.com/signalfyi/support/blob/main/licenses/trivy_LICENSE"
+        },
+        "legal_references": {
+            "dockerhub_legal_terms": {
+                "url": "https://www.docker.com/legal/",
+                "description": "Terms of service and legal agreements for using Docker services."
+            },
+            "github_terms": {
+                "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+                "description": "Terms of service for using GitHub."
+            },
+            "github_marketplace_terms": {
+                "url": "https://docs.github.com/en/site-policy/github-terms/github-marketplace-terms-of-service",
+                "description": "Terms of service for the GitHub Marketplace."
+            },
+            "trivy_license": {
+                "url": "https://github.com/aquasecurity/trivy/blob/main/LICENSE",
+                "description": "Apache 2.0 License for the Trivy vulnerability scanner."
+            },
+            "signal_fyi_legal": {
+                "url": "https://www.signal.fyi/legal/",
+                "description": "Legal terms and policies for Signal.fyi."
+            }
+        }
+    }
+}
