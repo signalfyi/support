@@ -1,0 +1,61 @@
+name: "🛠️ Support Request for Signal.fyi"
+description: "Having trouble with Signal.fyi? Let us know so we can assist you."
+title: "[Support]: "
+labels: [support, user-input]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🛠️ Need Help? Let Us Know!
+        Thank you for reaching out! Use this form to report issues with signal.fyi. Below are some examples:
+        - **You’re not receiving daily pull requests.**
+        - **Pull requests are created but contain incorrect or incomplete information.**
+        - **Any other issues preventing you from using Signal.fyi effectively.**
+
+  - type: input
+    id: repository-name
+    attributes:
+      label: "1️⃣ Repository Name"
+      description: Enter the name of the repository where you installed signal.fyi.
+      placeholder: "Example: my-organization/my-repo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "2️⃣ Describe the Issue"
+      description: Provide details about what’s happening (or not happening) with signal.fyi.
+      placeholder: "Example: I installed signal.fyi, but no PRs are being created for my Dockerfile."
+    validations:
+      required: true
+
+  - type: textarea
+    id: troubleshooting-steps
+    attributes:
+      label: "3️⃣ Troubleshooting Steps"
+      description: List any steps you’ve already tried to resolve the issue.
+      placeholder: "Example: Verified signal.fyi GitHub Marketplace App is installed."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: "4️⃣ How urgent is this issue?"
+      description: Select the urgency level for this request.
+      options:
+        - "High (blocking workflow: PRs are not created)"
+        - "Medium (disrupting but not blocking)"
+        - "Low (non-critical or informational)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Confirmation"
+      description: Confirm that this support request does not contain private or sensitive data.
+      options:
+        - label: "I confirm this support request contains no private data."
+          required: true
