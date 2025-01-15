@@ -1,3 +1,6 @@
+2025-01-11:
+- Initial release of Public Reporting
+
 2024-10-29:
 - Add provenance package at root of repo for SBOM and CVE Summaries
 - Upgrade and simplify splash page
