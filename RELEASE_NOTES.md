@@ -1,3 +1,6 @@
+2025-01-30:
+- Resolved redirect issue with mobile broswers / X (default link config)
+
 2025-01-11:
 - Initial release of Public Reporting
 
