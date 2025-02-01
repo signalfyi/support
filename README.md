@@ -1,4 +1,4 @@
-# **signal.fyi: Automated Public Docker Image Compliance & Reporting**
+# **Automated Public Docker Image Compliance & Reporting**
 
 **Automate Public Docker Image digest (version) management with actionable insights directly in your pull requests.**
 signal.fyi scans Public Docker Images daily, generating pull requests with enriched context for security, compliance, and efficiency.
